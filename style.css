@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    background-image: linear-gradient(to right bottom, rgb(188, 240, 158), #99cb94a8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-image{
+        width: 100%;
+        background-image: url(https://img.freepik.com/free-photo/monstera-green-leaves-nature-wallpaper_53876-129664.jpg?w=1380&t=st=1659663425~exp=1659664025~hmac=ea2d9bf00b54982efdaaa7723728f745fd283a5ad2068ed9191a46e7974a20c9);
+        height: 150px;
+        background-position: center;
+        border: #99cb94a8;
+        margin: 0%;
+      
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    color:beige;
+    padding-top: 25px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color: rgba(157, 217, 140, 0.3);
+
+}
+.fa-quote-left, .fa-quote-right {
+    font-size: 35px;
+    color: rgb(4, 51, 5);
+}
+
+
+.quote
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.author 
+{
+
+    margin:10px;
+    text-align: right;
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+}
+hr {
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+}
+/* 
+.twitter
+{
+    border:1px solid rgb(36, 46, 17);
+    border-radius: 4px;
+    background-color: rgb(36, 46, 17);
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    width: 60px;
+    height: 35px;
+    line-height: 40px;
+} */
+.next
+{
+    font-size:18px;
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(36, 46, 17);
+    background-image: linear-gradient(to right bottom, rgb(198, 235, 111), #f8f3f6a8);
+}
+.container:hover
+{
+    box-shadow: 0 10px 10px rgb(4, 51, 5);
+}
